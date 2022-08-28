@@ -11,11 +11,15 @@ const Header = () => {
 				</div>
 				<div className="header__text-box">
 					<h1 className="heading-primary">
-						<span className="heading-primary--main">Outdoors</span>
-						<span className="heading-primary--sub">is where life happens</span>
+						<span className="heading-primary--main">
+							Hi, my name is Mark Honsinger
+						</span>
+						<span className="heading-primary--sub">
+							I'm the developer your team is looking for.
+						</span>
 					</h1>
-					<a href="#" className="btn btn--white btn--animated">
-						discover our tours
+					<a href="." className="btn btn--white btn--animated">
+						Hire Me
 					</a>
 				</div>
 			</header>
