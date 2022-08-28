@@ -1,26 +1,25 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import HireMeButton from '../Button/HireMeButton';
 import dragon from '../../images/dragon.png';
-import './Header.module.scss';
+import styles from './Header.module.scss';
 
 const Header = () => {
 	return (
 		<>
-			<header className="header">
-				<div className="header__logo-box">
-					<img src={dragon} alt="dragon" className="header__logo" />
+			<header className={styles.header}>
+				<div className={styles.header__logoBox}>
+					<img src={dragon} alt="dragon" className={styles.header__logo} />
 				</div>
-				<div className="header__text-box">
+				<div className={styles.header__textBox}>
 					<h1 className="heading-primary">
 						<span className="heading-primary--main">
 							Hi, my name is Mark Honsinger
 						</span>
-						<span className="heading-primary--sub">
+						<span className={`heading-primary--sub ${styles.test}`}>
 							I'm the developer your team is looking for.
 						</span>
 					</h1>
-					<a href="." className="btn btn--white btn--animated">
-						Hire Me
-					</a>
+					<HireMeButton />
 				</div>
 			</header>
 		</>

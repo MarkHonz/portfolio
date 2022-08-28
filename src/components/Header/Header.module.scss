@@ -1,0 +1,45 @@
+// @use '../../styles/abstracts';
+@import '../../styles/abstracts/index';
+
+.test {
+	color: $color-grey-light-1;
+}
+
+.header {
+	height: 95vh;
+	background-image: linear-gradient(
+			to right bottom,
+			rgba($color-primary-light, 0.72),
+			rgba($color-primary-dark, 0.72)
+		)
+		/* ,
+		url('/src/images/hero.jpg') */;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	text-align: center;
+
+	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+	&__logoBox {
+		position: absolute;
+		top: 4rem;
+		left: 4rem;
+	}
+
+	&__logo {
+		height: 5rem;
+	}
+
+	&__logo:hover {
+		animation: logoHover 1s ease-out;
+	}
+
+	&__textBox {
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+}

@@ -4,3 +4,35 @@
 @use './layout/' as *;
 @use './components/' as *;
 @use './pages/' as *;
+
+@font-face {
+	font-family: 'lato';
+	src: local('lato'), url('../fonts/Lato-100.woff2') format('woff2'),
+		url('../fonts/Lato-100.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'lato';
+	src: local('lato'), url('../fonts/Lato-300.woff2') format('woff2'),
+		url('../fonts/Lato-300.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'lato';
+	src: local('lato'), url('../fonts/Lato-400.woff2') format('woff2'),
+		url('../fonts/Lato-400.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'lato';
+	src: local('lato'), url('../fonts/Lato-700.woff2') format('woff2'),
+		url('../fonts/Lato-700.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
