@@ -1,1 +1,8 @@
 @use '../abstracts' as *;
+
+main {
+	display: grid;
+	grid-gap: none;
+	grid-template-columns: 1fr;
+	grid-auto-rows: minmax(auto, auto);
+}

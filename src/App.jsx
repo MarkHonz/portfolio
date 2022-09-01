@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import 'normalize.css';
 import Header from './components/Header/Header';
+import Login from './components/Login/Login';
 
 const App = () => {
-	const [isDark, setDark] = useState(true);
-	const dayNightModeSwitcher = () => {};
 	return (
 		<>
-			<Header className="" />
+			<main>
+				<Header />
+				<Login />
+			</main>
 		</>
 	);
 };
