@@ -21,7 +21,7 @@ const Login = () => {
 
 	return (
 		<>
-			<div className={styles.app} data-theme={theme}>
+			<section className={styles.app} data-theme={theme}>
 				<div className={styles.login}>
 					<h2 className={styles.login__h1}>Login</h2>
 					<div className={styles.container}>
@@ -88,7 +88,7 @@ const Login = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</>
 	);
 };
